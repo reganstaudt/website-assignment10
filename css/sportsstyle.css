@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background: #cef9ff;
+    color: #000;
+  }
+  figcaption {
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.2; 
+    color: #000; 
+  }
+
+  img {
+    display: block;
+    border: 1px solid #666;
+    background: #fff;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+  
+  p {
+    line-height: 1.4;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    max-width: 550px; 
+
+  }
+
+.rotate-right {
+    transform: rotate(10deg);
+  }
+  
+  .rotate-left {
+    transform: rotate(-10deg);
+  }
+  
+ @media screen and (max-width:600px){
+    body {
+        margin: 1rem;
+    }
+    h1 {
+        padding: 1rem;
+    }
+ }
